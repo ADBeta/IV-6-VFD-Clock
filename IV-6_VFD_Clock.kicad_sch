@@ -1,0 +1,170 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ff508fd-18da-4ab7-9844-3c8a28c2587e")
+	(paper "A4")
+	(title_block
+		(title "IV-6 VFD Clock")
+		(date "2025-06-22")
+		(rev "MkII")
+		(company "ADBeta")
+	)
+	(lib_symbols)
+	(text "Multi-Board project.\nEach Schematic represents a single PCB, each PCB will be seperated in the\nPCB File.\n\nThis Root Page gives an overview of interconnections and flow control\nbetween Boards"
+		(exclude_from_sim no)
+		(at 144.78 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "5ab29709-7247-4f88-ba9d-38cb8f4a43cc")
+	)
+	(no_connect
+		(at 104.14 158.75)
+		(uuid "e739a248-d511-4679-b92e-98ad52d4151a")
+	)
+	(sheet
+		(at 34.925 109.855)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000619970a4")
+		(property "Sheetname" "PowerControl"
+			(at 34.925 109.1434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerControl.kicad_sch"
+			(at 34.925 124.4096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IV-6_VFD_Clock"
+				(path "/0ff508fd-18da-4ab7-9844-3c8a28c2587e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.925 161.925)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000061998834")
+		(property "Sheetname" "DisplayControl"
+			(at 34.925 161.2134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DisplayControl.kicad_sch"
+			(at 34.925 176.4796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IV-6_VFD_Clock"
+				(path "/0ff508fd-18da-4ab7-9844-3c8a28c2587e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 102.87)
+		(size 59.055 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000061998cd6")
+		(property "Sheetname" "ClockGen"
+			(at 107.95 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ClockGen.kicad_sch"
+			(at 107.95 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PBUS_12V" input
+			(at 107.95 106.045 180)
+			(uuid "20b9de70-a85b-431b-af76-d705c77848c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IV-6_VFD_Clock"
+				(path "/0ff508fd-18da-4ab7-9844-3c8a28c2587e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
