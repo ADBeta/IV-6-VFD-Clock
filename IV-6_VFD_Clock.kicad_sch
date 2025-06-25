@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "IV-6 VFD Clock")
-		(date "2025-06-23")
+		(date "2025-06-25")
 		(rev "MkII")
 		(company "ADBeta")
 	)
@@ -68,8 +68,8 @@
 		)
 	)
 	(sheet
-		(at 34.925 161.925)
-		(size 34.29 13.97)
+		(at 107.95 129.54)
+		(size 43.18 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -84,7 +84,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000061998834")
 		(property "Sheetname" "DisplayControl"
-			(at 34.925 161.2134 0)
+			(at 107.95 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +93,7 @@
 			)
 		)
 		(property "Sheetfile" "DisplayControl.kicad_sch"
-			(at 34.925 176.4796 0)
+			(at 107.95 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +111,7 @@
 	)
 	(sheet
 		(at 107.95 102.87)
-		(size 59.055 33.02)
+		(size 43.18 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -135,7 +135,7 @@
 			)
 		)
 		(property "Sheetfile" "ClockGen.kicad_sch"
-			(at 107.95 136.4746 0)
+			(at 107.95 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,6 +146,46 @@
 		(pin "PBUS_12V" input
 			(at 107.95 106.045 180)
 			(uuid "20b9de70-a85b-431b-af76-d705c77848c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIG_CLK_1HZ" output
+			(at 151.13 106.045 0)
+			(uuid "11c031e7-c465-4760-90de-522c6f78b835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIG_CLK_10HZ" output
+			(at 151.13 108.585 0)
+			(uuid "637ff11c-6c3e-4910-b83b-75ee284dc535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIG_CLK_100HZ" output
+			(at 151.13 111.125 0)
+			(uuid "b0743b10-20e3-4930-94cc-4d5faf6a1d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PBUS_GND" input
+			(at 107.95 108.585 180)
+			(uuid "7cc446b2-5ae0-4b57-a4c0-e37d7a342a9f")
 			(effects
 				(font
 					(size 1.27 1.27)
