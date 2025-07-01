@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "IV-6 VFD Clock")
-		(date "2025-06-25")
+		(date "2025-07-01")
 		(rev "MkII")
 		(company "ADBeta")
 	)
@@ -26,8 +26,8 @@
 		(uuid "e739a248-d511-4679-b92e-98ad52d4151a")
 	)
 	(sheet
-		(at 34.925 109.855)
-		(size 34.29 13.97)
+		(at 60.325 102.235)
+		(size 43.18 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -42,7 +42,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000619970a4")
 		(property "Sheetname" "PowerControl"
-			(at 34.925 109.1434 0)
+			(at 60.325 101.5234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerControl.kicad_sch"
-			(at 34.925 124.4096 0)
+			(at 60.325 123.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
