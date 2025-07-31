@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "IV-6 VFD Clock")
-		(date "2025-07-01")
+		(date "2025-07-06")
 		(rev "MkII")
 		(company "ADBeta")
 	)
@@ -57,6 +57,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PBUS_12v" output
+			(at 103.505 106.045 0)
+			(uuid "85b58d08-572d-4c32-9cd8-b7ae88583e03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PBUS_GND" output
+			(at 103.505 108.585 0)
+			(uuid "64997fd6-fae4-4506-b21d-8210a8d8cba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PBUS_SW_6v" output
+			(at 103.505 118.745 0)
+			(uuid "ffd3fdfb-5678-411a-83d6-69233c0911b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PBUS_SW_12v" output
+			(at 103.505 116.205 0)
+			(uuid "badb8557-9440-4086-bfe4-044c452f193b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VFD_HTR_A" output
+			(at 60.325 106.045 180)
+			(uuid "1a78f433-c26f-4558-8c31-c9e1e89c9341")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VFD_HTR_B" output
+			(at 60.325 108.585 180)
+			(uuid "4843e60e-5bd7-4702-8457-05f199527fed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
